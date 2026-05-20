@@ -1,0 +1,12 @@
+# Runtime dependencies for mpeg4mini
+# Tested on Python 3.10+ (uses PEP 604 X | Y type unions).
+
+numpy>=1.26
+scipy>=1.11
+opencv-python>=4.8
+matplotlib>=3.8
+
+# Report generation (only needed for `scripts/build_report.py` and
+# `scripts/build_guide.py`; the codec itself does not import reportlab).
+reportlab>=4.0
+Pillow>=10.0
